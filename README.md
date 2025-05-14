@@ -53,23 +53,38 @@ This project builds a fully automated monitoring system for a workspace using AI
 ## Project Structure
 
 ```
-workspace_monitor/
-├── agent.py                # Main logic controller (agent)
-├── models/                 # All model-related code
-│   ├── yolov7_pose/
-│   ├── yolov8/
-│   └── wav2vec2/
-├── utils/
-│   ├── video_processing.py
-│   ├── audio_processing.py
-│   └── alert_manager.py
-├── data/
-│   ├── videos/             # Saved alert video clips
-│   └── audio/              # Saved audio recordings
-├── dashboard/
-│   └── reflex_app/         # Admin interface
+catch-me-if-u-can/            # 🔹 Root folder = project name
+├── backend/                  # 🔧 All server-side logic
+│   ├── agent/                # 🤖 AI agent & detection system
+│   │   ├── agent.py
+│   │   ├── models/
+│   │   │   ├── yolov7_pose/
+│   │   │   ├── yolov8/
+│   │   │   └── wav2vec2/
+│   │   ├── utils/
+│   │   │   ├── video_processing.py
+│   │   │   ├── audio_processing.py
+│   │   │   └── alert_manager.py
+│   │   └── data/
+│   │       ├── videos/
+│   │       └── audio/
+│
+│   ├── api/                  # (Future) API endpoints for mobile/web apps
+│
+│   └── database/             # (Future) DB schemas, migrations
+│       └── models.py
+│
+├── admin_app/                # 🧑‍💼 Admin-only dashboard
+│       └── (your Reflex dashboard code)
+│
+├── user_app/                 # (Future) User-side mobile or web app
+│
+├── shared/                   # Shared utilities, configs
+│   └── config.py
+│
 ├── requirements.txt
 └── README.md
+
 ```
 
 ---
