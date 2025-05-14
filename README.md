@@ -4,7 +4,7 @@
 
 This project builds a fully automated monitoring system for a workspace using AI. The system uses video and audio feeds to detect inappropriate behavior (e.g., unwanted touching, hugging), theft (e.g., stealing chairs or furniture), and offensive language (specifically Egyptian Arabic curse words). All alerts are stored with relevant video/audio clips and shown on a professional admin dashboard.
 
-> **Note**: This project focuses only on the admin side. There is no user-facing app, login, or registration. The goal is for the owner to review alerts and manage the system.
+> **Note**: This project focuses only on the admin side. There is no user-facing app, login, or registration yet, all will be easily implemented later. The goal is for the owner to review alerts and manage the system.
 
 ---
 
