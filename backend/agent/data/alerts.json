@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sample001",
+    "timestamp": "2023-11-15T14:30:00",
+    "alert_type": "inappropriate_contact",
+    "description": "Sample alert for testing dashboard functionality",
+    "video_path": null,
+    "audio_path": null,
+    "is_false_positive": false,
+    "feedback": ""
+  }
+]
