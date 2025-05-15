@@ -1,0 +1,22 @@
+# Core requirements
+numpy>=1.21.0
+opencv-python>=4.5.5.64
+Pillow>=9.0.0
+pydub>=0.25.1
+
+# ML & AI models
+torch>=2.0.0
+torchvision>=0.14.0
+transformers>=4.18.0
+ultralytics>=8.0.0  # For YOLOv8
+
+# Audio processing
+librosa>=0.9.1
+sounddevice>=0.4.4
+
+# Reflex for dashboard
+reflex>=0.7.11
+
+# Utilities
+tqdm>=4.64.0
+pytest>=7.0.0
